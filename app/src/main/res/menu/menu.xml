@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/wdzh"
+        android:title="我的账户"
+        />
+
+    <item android:id="@+id/hldgl"
+        android:title="红绿灯管理"
+        />
+
+    <item android:id="@+id/zdgl"
+        android:title="账单管理"
+        />
+
+    <item
+        android:id="@+id/clwz"
+        android:title="车辆违章"
+        />
+
+    <item
+        android:id="@+id/hjzb"
+        android:title="环境指标"/>
+
+    <item
+        android:id="@+id/yzsz"
+        android:title="阈值设置"
+        />
+
+    <item android:id="@+id/cxgl"
+        android:title="出行管理"
+        />
+
+</menu>

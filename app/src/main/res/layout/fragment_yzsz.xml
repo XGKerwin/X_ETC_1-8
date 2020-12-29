@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自动报警：  "
+            android:textSize="30dp"
+            android:layout_marginLeft="300dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_kaiguan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Switch"
+            android:textSize="30dp"
+            android:layout_marginLeft="30dp"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="left|center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="温        度:"
+            android:textSize="35dp"
+            />
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:background="@drawable/edit_heibian"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ed_wendu"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="left|center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="湿        度:"
+            android:textSize="35dp"
+            />
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:inputType="number"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/edit_heibian"
+            android:id="@+id/ed_shidu"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="left|center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="光        照:"
+            android:textSize="35dp"
+            />
+        <EditText
+            android:layout_width="500dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:background="@drawable/edit_heibian"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ed_guangzhao"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="left|center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="CO2        :"
+            android:textSize="35dp"
+            />
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:inputType="number"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/edit_heibian"
+            android:id="@+id/ed_co2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="left|center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="PM2.5    :"
+            android:textSize="35dp"
+            />
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:background="@drawable/edit_heibian"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ed_pm"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="left|center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="道路状态:"
+            android:textSize="35dp"
+            />
+        <EditText
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:background="@drawable/edit_heibian"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ed_daolu"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_baocun"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:textSize="30dp"
+            />
+
+
+        <Button
+            android:id="@+id/btn_tishi"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="tishi"
+            android:textSize="30dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

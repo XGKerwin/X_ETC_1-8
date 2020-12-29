@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/txt_heibian"
+        >
+        <TextView
+            android:id="@+id/lukou"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="路口"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/txt_heibian"
+            />
+
+        <TextView
+            android:id="@+id/hong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="红灯时长（s）"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/txt_heibian"
+            />
+
+        <TextView
+            android:id="@+id/huang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="黄灯时长（s）"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/txt_heibian"
+            />
+
+        <TextView
+            android:id="@+id/lv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="绿灯时长（s）"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/txt_heibian"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
